@@ -3637,8 +3637,13 @@
 @media screen and (min-width:1550px) {
   .grid-container {
     width: 100vw;
-    height: 270vh;
+    height: 500vh;
     position: relative;
+  }
+  
+  .gridLayer:nth-child(11) .gridBlock {
+    top: 70rem;
+    left: 21vw;
   }
 }
 
