@@ -455,10 +455,10 @@
                 addMainSection.addEventListener("keydown", function (e) { if (keyboardCheck.checked && e.ctrlKey && (e.keyCode == "61" || e.keyCode == "107" || e.keyCode == "173" || e.keyCode == "109" || e.keyCode == "187" || e.keyCode == "189")) { e.preventDefault() } })
                 addMainSection.addEventListener("wheel", function (e) { if (e.ctrlKey) { e.preventDefault() } }, { passive: false });
       </script>
-      <script src="https://mahdi-jafarnejad-teamgraphic.storage.c2.liara.space/CDN_GSAP_MIN.js"></script>
-      <script src="https://mahdi-jafarnejad-teamgraphic.storage.c2.liara.space/CDN_GSAP_SCROLLTRIGGER.js"></script>
-      <script>gsap.registerPlugin(ScrollTrigger)</script>
-      <script>
+      <script defer src="https://mahdi-jafarnejad-teamgraphic.storage.c2.liara.space/CDN_GSAP_MIN.js"></script>
+      <script defer src="https://mahdi-jafarnejad-teamgraphic.storage.c2.liara.space/CDN_GSAP_SCROLLTRIGGER.js"></script>
+      <script defer>gsap.registerPlugin(ScrollTrigger)</script>
+      <script defer>
                 gsap.registerPlugin(ScrollTrigger);
                 // GALLERY CAROUSEL
                 const CTL = gsap.timeline()
@@ -466,20 +466,19 @@
                 CTL.to('.CAROUSEL_2_PARENT', { transform: "translateX(-25%)", duration: 2.5, scrollTrigger: { trigger: ".ADD_GALLERY_CONTAINER", scroller: "body", start: "top 50%", scrub: true, ease: 'power1.inOut', toggleActions: "play pause reverse reset", invalidateOnRefresh : true } })
                 CTL.to('.CAROUSEL_3_PARENT', { transform: "translateX(25%)", duration: 2.5, scrollTrigger: { trigger: ".ADD_GALLERY_CONTAINER", scroller: "body", start: "top 50%", scrub: true, ease: 'power1.inOut', toggleActions: "play pause reverse reset", invalidateOnRefresh : true } })
                 // SUBJECTS PARRALAX    
-               //  let getRatio = (el) => window.innerHeight / (window.innerHeight + el.offsetHeight)
-               let getRatio = (el) => {return window.innerHeight / (window.innerHeight + el.offsetHeight);}
+                let getRatio = (el) => window.innerHeight / (window.innerHeight + el.offsetHeight)
+               // let getRatio = (el) => {return window.innerHeight / (window.innerHeight + el.offsetHeight);}
                 gsap.utils.toArray("section.SUBJECT_SECTION").forEach((sec, i) => {
                     sec.bg = sec.querySelector(".SUBJECT_BG")
                     // BACKGROUNDS
                     sec.bg.style.backgroundImage = `url(https://pouryasoleimani-adddesign.storage.c2.liara.space/addv-subjects-bg/${i + 1}.jpg)`
                     sec.bg.style.backgroundRepeat = "no-repeat"
                     if(window.innerWidth > 768){ 
-                     //   sec.bg.style.height= "80vh";
                        sec.bg.style.willChange = "background-position";
                        sec.bg.style.backgroundSize = "cover"
                      }
                     else {
-                        sec.bg.style.height= "120vh";
+                        sec.bg.style.height= "165vh";
                         sec.bg.style.willChange = "background-position";
                         sec.bg.style.backgroundSize = "cover";
                         }
@@ -489,7 +488,6 @@
                         {backgroundPosition: () => `60% ${window.innerHeight * (1 - getRatio(sec))}px`,ease: "none",
                             scrollTrigger: { trigger: sec, start: () => (i ? "top bottom" : "top top"), end: "bottom top", scrub: true, invalidateOnRefresh: false, fastScrollEnd: false, aniticipatePin: true , invalidateOnRefresh : true },
                         })
-                        invalidateOnRefresh = "true"
                 })
                 // CATEGORIES SECTION   
                 gsap.timeline({
