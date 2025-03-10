@@ -2550,6 +2550,16 @@
     font-size: 17px;
     line-height: 1.7;
   }
+  
+  .ADD__HEADER__BUTTONS__CONTAINER {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    column-gap: .2rem !important;
+    row-gap: .5rem !important;
+    transform: translate(-12px ,-8px);
+    z-index: 32;
+  }
 }
 
 @media screen and (min-width:560px) {
@@ -2607,7 +2617,7 @@
   }
 }
 
-@media screen and (min-width :620px) {
+@media screen and (min-width:620px) {
   
   .ADD__HEADER__BUTTONS__CONTAINER {
     transform: translate(-44px, -8px);
@@ -2651,7 +2661,7 @@
   }
 }
 
-@media screen and (min-width :640px) {
+@media screen and (min-width:640px) {
   
   .HEADER__CONTENT__CONTAINER {
     display: flex;
@@ -2768,7 +2778,13 @@
   }
 }
 
-@media screen and (min-width :720px) {
+@media screen and (min-width:680px) {
+  .TABLET__WHITE {
+    color: #fff;
+  }
+}
+
+@media screen and (min-width:720px) {
   .PLANS_HEADER__TEXT {
     width: 86%;
     margin-bottom: 3.5rem;
@@ -2792,15 +2808,9 @@
   }
 }
 
-@media screen and (min-width :520px) {
+@media screen and (min-width:760px) {
   .ADD__HEADER__BUTTONS__CONTAINER {
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    column-gap: .2rem !important;
-    row-gap: .5rem !important;
-    transform: translate(-12px ,-8px);
-    z-index: 32;
+    transform: translate(-202px ,-8px);
   }
 }
 
