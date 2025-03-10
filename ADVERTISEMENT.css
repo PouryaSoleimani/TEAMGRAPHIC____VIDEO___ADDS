@@ -2608,13 +2608,9 @@
 }
 
 @media screen and (min-width :620px) {
+  
   .ADD__HEADER__BUTTONS__CONTAINER {
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    column-gap: .2rem !important;
-    row-gap: .5rem !important;
-    transform: translate(21px ,-8px);
+    transform: translate(-44px, -8px);
   }
   
   .ADD__HEADER__BUTTONS {
@@ -2622,8 +2618,8 @@
   }
   
   .ADD_GALLERY_TEXT {
-    font-size: 28px;
-    width: 81%;
+    font-size: 26px;
+    width: 79%;
   }
   
   .MOBILE__WHITE {
@@ -2631,29 +2627,28 @@
   }
   
   .PLANS_HEADER {
-    font-size: 34px;
+    font-size: 31px;
     margin-bottom: 1rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
   }
-
+  
   .PLANS_HEADER__TEXT {
     width: 90%;
     margin-bottom: 6.5rem;
     font-size: 18px;
   }
-
+  
   .STEPS__TITLE__MOBILE {
     top: 9%;
   }
-
+  
   .glass3 h3 {
     font-size: 25px;
   }
-
+  
   .glass3 h3 strong {
     font-size: 27px;
   }
-  
 }
 
 @media screen and (min-width :640px) {
