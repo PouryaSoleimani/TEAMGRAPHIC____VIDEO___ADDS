@@ -3270,12 +3270,7 @@
   }
   
   .ADD__BIG__TEXT__CAMERA1 {
-    position: absolute;
-    top: -15%;
-    right: 70%;
-    z-index: -10;
-    scale: .8;
-    --animate-duration: 8s;
+    top: -19%;
   }
 }
 
