@@ -2063,6 +2063,7 @@
 .SUBJECT_BG {
   will-change: "background-position";
 }
+
 /* //^ RESPONSIVE **************************************************************************************************************************************************************************************************************************/
 @media screen and (max-width:768px) {
   .ADD_GALLERY_TEXT {
@@ -2809,13 +2810,49 @@
 }
 
 @media screen and (min-width:760px) {
+  
+  .HEADER__TITLE {
+    font-size: 44px !important;
+  }
+
+  .PLANS_HEADER__TEXT {
+    width: 90%;
+    font-size: 21px;
+  }
+
   .ADD__HEADER__BUTTONS__CONTAINER {
-    transform: translate(-202px ,-8px);
+    transform: translate(-183px ,-8px);
+  }
+  
+  .ADD__HEADER__BUTTONS {
+    transform: translate(44px,7px);
+  }
+  
+  .ADD__HEADER__BUTTON__FILL {
+    background-color: #fabb14;
+    transition: all 300ms linear;
   }
   
   .PLANS_HEADER__TEXT {
     width: 90%;
     font-size: 19px;
+  }
+  
+  .HEADER__CONTENT__CONTAINER {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    position: absolute;
+    right: 1vw;
+    top: 39vw;
+    padding: 0 1rem;
+  }
+  
+  .ADD__HEADER__CONTENT {
+    padding-right: 0.5rem;
+    font-size: 19px;
+    padding-top: 0.5rem;
   }
 }
 
