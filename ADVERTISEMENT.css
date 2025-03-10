@@ -3435,11 +3435,6 @@
     font-size: 19px;
   }
   
-  #ADD_CATEG_SECTION {
-    display: flex;
-    margin-top: 5%;
-  }
-  
   .CATEG__HEADER__TITLE {
     font-size: 4.5vw;
     font-weight: 800;
@@ -3563,6 +3558,12 @@
 }
 
 @media screen and (min-width:1440px) {
+  
+  #ADD_CATEG_SECTION {
+    display: flex;
+    margin-top: 5%;
+  }
+  
   .ADD__BIG__TEXT__CAMERA1 {
     position: absolute;
     top: -22%;
