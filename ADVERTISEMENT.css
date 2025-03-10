@@ -2812,6 +2812,11 @@
   .ADD__HEADER__BUTTONS__CONTAINER {
     transform: translate(-202px ,-8px);
   }
+  
+  .PLANS_HEADER__TEXT {
+    width: 90%;
+    font-size: 19px;
+  }
 }
 
 @media screen and (min-width:820px) {
