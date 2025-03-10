@@ -2495,6 +2495,16 @@
     bottom: -9%;
     right: -23%;
   }
+  
+  .ADD_GALLERY_TEXT {
+    font-size: 23px;
+    width: 95%;
+    line-height: 2;
+  }
+  
+  .glass3 h3 {
+    font-size: 21px;
+  }
 }
 
 @media screen and (min-width:520px) {
