@@ -485,9 +485,9 @@
                         sec.bg.style.backgroundSize = "auto";
                         }
                     gsap.fromTo(
-                        sec.bg,{ 
-                        backgroundPosition: () => i ? `60% ${-window.innerHeight * getRatio(sec)}px` : "50% 0px" },
-                        {backgroundPosition: () => `60% ${window.innerHeight * (1 - getRatio(sec))}px`,ease: "none",
+                        sec.bg,{ backgroundPosition: () => i ? `60% ${-window.innerHeight * getRatio(sec)}px` : "50% 0px" },
+                        {
+                           backgroundPosition: () => `60% ${window.innerHeight * (1 - getRatio(sec))}px`,ease: "none",
                             scrollTrigger: { trigger: sec, start: () => (i ? "top bottom" : "top top"), end: "bottom top", scrub: true, invalidateOnRefresh: false, fastScrollEnd: false, aniticipatePin: true , invalidateOnRefresh : true },
                         })
                 })
