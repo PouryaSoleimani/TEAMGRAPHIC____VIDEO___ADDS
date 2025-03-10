@@ -2653,6 +2653,17 @@
 
 @media screen and (min-width :640px) {
   
+  .HEADER__CONTENT__CONTAINER {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    position: absolute;
+    right: 2vw;
+    top: 36vw;
+    padding: 0rem 2rem;
+  }
+  
   .PLANS_HEADER__TEXT {
     width: 75vw;
     letter-spacing: -.5px;
@@ -2691,37 +2702,12 @@
     font-size: 45px;
   }
   
-  .HEADER__CONTENT__CONTAINER {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: start;
-    position: absolute;
-    right: -2vw;
-    top: 29vw;
-    padding: 0 5vw;
-  }
-  
   .ADD__HEADER__BUTTONS {
-    display: flex;
-    align-items: end;
-    justify-content: start;
-    padding-right: 0;
-    width: 100%;
-    column-gap: 2rem;
-    padding-top: 1rem;
-    flex-direction: column;
+    transform: translate(1px,-1px);
   }
   
   .ADD__HEADER__CONTENT {
-    font-size: 2.5vw;
-    color: #fff;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    letter-spacing: .5px;
-    white-space: nowrap;
-    padding-right: .5rem;
+    padding-right: 1.5rem;
   }
   
   .ADD__HEADER__BUTTONS__CONTAINER {
@@ -2752,9 +2738,13 @@
     --animate-duration: 8s;
   }
   
+  .ADD_STEPS_SECTION {
+    height: 98rem;
+    margin-top: -27%;
+  }
+  
   #ADD__TEXT__SECTION {
-    width: 100vw;
-    margin: 0;
+    margin-top: 6rem;
   }
   
   .ADD__TEXTS {
@@ -2769,6 +2759,11 @@
   
   .PLANS_HEADER {
     font-size: 34px;
+  }
+
+  .PLANS_HEADER__TEXT {
+    width: 91vw;
+    font-size: 18px;
   }
 }
 
