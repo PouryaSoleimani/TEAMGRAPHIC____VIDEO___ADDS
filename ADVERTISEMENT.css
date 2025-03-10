@@ -3052,7 +3052,7 @@
   .ADD__HEADER__BUTTONS {
     transform: translate(-16px,12px);
   }
-
+  
   .PLANS_HEADER__TEXT {
     width: 80vw;
     margin-bottom: 3.5rem;
@@ -3228,6 +3228,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  
+  .glass3 h3 {
+    font-size: 26px !important;
+  }
+  
+  .glass3 h3 strong {
+    font-size: 26px;
   }
 }
 
