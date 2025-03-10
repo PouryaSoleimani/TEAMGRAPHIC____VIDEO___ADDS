@@ -2831,6 +2831,7 @@
   .ADD__HEADER__BUTTON__FILL {
     background-color: #fabb14;
     transition: all 300ms linear;
+    font-weight: 900;
   }
   
   .PLANS_HEADER__TEXT {
@@ -3239,40 +3240,12 @@
   }
 }
 
-@media screen and (min-width:1580px) {
-  .ADD__BIG__TEXT__CAMERA1 {
-    position: absolute;
-    top: -23%;
-    left: -22%;
-    z-index: -10;
-    scale: .9;
-    --animate-duration: 8s;
-  }
-  
-  .ADD__BIG__TEXT__CAMERA2 {
-    scale: .7;
-  }
-  
-  .ADD__TEXTS {
-    margin-top: 4vw;
-  }
-  
-  .ADD__BIG__TEXT__CAMERA2 {
-    position: absolute;
-    bottom: -27%;
-    right: -2%;
-    z-index: -10;
-    --animate-duration: 8s;
-  }
-  
-  #ADD_FOOTER_SECTION {
-    flex-direction: row;
-    padding: 18rem 0 0 0;
-    margin-top: 18rem;
-  }
-}
-
 @media screen and (min-width:1120px) {
+  .STEPS__TITLE {
+    font-size: 55px;
+    top: 35%;
+  }
+
   #ADD__TEXT__SECTION {
     width: 100vw;
     margin-top: -4rem;
@@ -3679,6 +3652,37 @@
   
   .ADD__TEXTS {
     margin-top: 6vw;
+  }
+  
+  .ADD__BIG__TEXT__CAMERA1 {
+    position: absolute;
+    top: -23%;
+    left: -22%;
+    z-index: -10;
+    scale: .9;
+    --animate-duration: 8s;
+  }
+  
+  .ADD__BIG__TEXT__CAMERA2 {
+    scale: .7;
+  }
+  
+  .ADD__TEXTS {
+    margin-top: 4vw;
+  }
+  
+  .ADD__BIG__TEXT__CAMERA2 {
+    position: absolute;
+    bottom: -27%;
+    right: -2%;
+    z-index: -10;
+    --animate-duration: 8s;
+  }
+  
+  #ADD_FOOTER_SECTION {
+    flex-direction: row;
+    padding: 18rem 0 0 0;
+    margin-top: 18rem;
   }
 }
 
