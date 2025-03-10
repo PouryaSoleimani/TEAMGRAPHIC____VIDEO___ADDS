@@ -2642,6 +2642,18 @@
     font-size: 18px;
   }
 
+  .STEPS__TITLE__MOBILE {
+    top: 9%;
+  }
+
+  .glass3 h3 {
+    font-size: 25px;
+  }
+
+  .glass3 h3 strong {
+    font-size: 27px;
+  }
+  
 }
 
 @media screen and (min-width :640px) {
