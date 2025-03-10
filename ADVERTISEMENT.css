@@ -3245,7 +3245,7 @@
     font-size: 55px;
     top: 35%;
   }
-
+  
   #ADD__TEXT__SECTION {
     width: 100vw;
     margin-top: -4rem;
@@ -3324,7 +3324,7 @@
     scale: .3;
     z-index: 1;
     position: absolute;
-    top: -44vw;
+    top: -41vw;
     left: 42vw;
     --animate-duration: 8s;
   }
@@ -3357,6 +3357,9 @@
     width: 100vw;
     height: 147vw;
     position: relative;
+  }
+  .ADD__BIG__TEXT__CAMERA1 {
+    top: -22%;
   }
 }
 
