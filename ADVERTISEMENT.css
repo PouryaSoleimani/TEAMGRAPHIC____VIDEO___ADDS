@@ -340,42 +340,6 @@
   top: calc(86% + 30vw);
 }
 
-@media screen and (min-width:640px) {
-  .PLANS_HEADER__TEXT {
-    width: 75vw;
-    letter-spacing: -.5px;
-    word-break: break-word;
-    text-align: justify;
-    direction: rtl;
-    font-size: 16px;
-    line-height: 2;
-  }
-  
-  .ADDV_PLANS_CONTAINER > img#CAMERA__IMG {
-    background: 0 0;
-    scale: .6;
-    z-index: 1;
-    position: absolute;
-    top: -6%;
-    left: 17%;
-    --animate-duration: 8s;
-  }
-  
-  .ADDV_PLANS_CONTAINER > img#DRONE__IMG {
-    background: 0 0;
-    scale: .8;
-    z-index: 1;
-    position: absolute;
-    --animate-duration: 8s;
-    left: 14%;
-  }
-  
-  .ADD_SUBJECTS_CONTAINER > .SUBJECTS__HEADER__TITLE {
-    padding-top: 3rem;
-    font-size: 35px;
-  }
-}
-
 @media screen and (min-width:2210px) {
   .ADDV_PLANS_CONTAINER>img#CAMERA__IMG {
     background: 0 0;
@@ -2626,7 +2590,42 @@
   }
 }
 
-@media  screen and (min-width:640px) {
+@media screen and (min-width :640px) {
+  
+  .PLANS_HEADER__TEXT {
+    width: 75vw;
+    letter-spacing: -.5px;
+    word-break: break-word;
+    text-align: justify;
+    direction: rtl;
+    font-size: 16px;
+    line-height: 2;
+  }
+  
+  .ADDV_PLANS_CONTAINER > img#CAMERA__IMG {
+    background: 0 0;
+    scale: .6;
+    z-index: 1;
+    position: absolute;
+    top: -6%;
+    left: 17%;
+    --animate-duration: 8s;
+  }
+  
+  .ADDV_PLANS_CONTAINER > img#DRONE__IMG {
+    background: 0 0;
+    scale: .8;
+    z-index: 1;
+    position: absolute;
+    --animate-duration: 8s;
+    left: 14%;
+  }
+  
+  .ADD_SUBJECTS_CONTAINER > .SUBJECTS__HEADER__TITLE {
+    padding-top: 3rem;
+    font-size: 35px;
+  }
+  
   .ADD__HEADER__TITTLE {
     font-size: 45px;
   }
