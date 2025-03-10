@@ -468,8 +468,8 @@
                 CTL.to('.CAROUSEL_2_PARENT', { transform: "translateX(-25%)", duration: 2.5, scrollTrigger: { trigger: ".ADD_GALLERY_CONTAINER", scroller: "body", start: "top 50%", scrub: true, ease: 'power1.inOut', toggleActions: "play pause reverse reset", invalidateOnRefresh : true } })
                 CTL.to('.CAROUSEL_3_PARENT', { transform: "translateX(25%)", duration: 2.5, scrollTrigger: { trigger: ".ADD_GALLERY_CONTAINER", scroller: "body", start: "top 50%", scrub: true, ease: 'power1.inOut', toggleActions: "play pause reverse reset", invalidateOnRefresh : true } })
                 // SUBJECTS PARRALAX    
-                let getRatio = (el) => window.innerHeight / (window.innerHeight + el.offsetHeight)
-               // let getRatio = (el) => {return window.innerHeight / (window.innerHeight + el.offsetHeight);}
+               //  let getRatio = (el) => window.innerHeight / (window.innerHeight + el.offsetHeight)
+               let getRatio = (el) => {return window.innerHeight / (window.innerHeight + el.offsetHeight);}
                 gsap.utils.toArray("section.SUBJECT_SECTION").forEach((sec, i) => {
                     sec.bg = sec.querySelector(".SUBJECT_BG")
                     // BACKGROUNDS
@@ -480,9 +480,9 @@
                        sec.bg.style.backgroundSize = "cover"
                      }
                     else {
-                        sec.bg.style.height= "165vh";
+                        // sec.bg.style.height= "165vh";
                         sec.bg.style.willChange = "background-position";
-                        sec.bg.style.backgroundSize = "cover";
+                        sec.bg.style.backgroundSize = "auto";
                         }
                     gsap.fromTo(
                         sec.bg,{ 
