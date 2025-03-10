@@ -2553,7 +2553,20 @@
 }
 
 @media screen and (min-width:560px) {
-  
+  .ADD__HEADER__BUTTONS {
+    transform: translate(-86px,-1px);
+  }
+
+  .ADD_GALLERY_TEXT {
+    font-size: 26px;
+    width: 90%;
+  }
+
+  .ADD_STEPS_SECTION {
+    height: 84rem;
+    margin-top: -27%;
+  }
+
   .ADDV_PLANS_CONTAINER > img#DRONE__IMG {
     background: 0 0;
     scale: .9;
