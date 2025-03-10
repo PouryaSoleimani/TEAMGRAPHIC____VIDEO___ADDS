@@ -2508,6 +2508,15 @@
 }
 
 @media screen and (min-width:520px) {
+  .ADDV_PLANS_CONTAINER > img#DRONE__IMG {
+    top: 84%;
+  }
+  
+  .ADD_STEPS_SECTION {
+    height: 84rem;
+    margin-top: -41%;
+  }
+  
   #ADD_FOOTER_SECTION {
     margin-top: 3rem;
   }
