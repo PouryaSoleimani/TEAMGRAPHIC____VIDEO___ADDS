@@ -2602,8 +2602,8 @@
 }
 
 @media screen and (min-width:590px) {
-  .TABLET__WHITE {
-    color: #fff;
+  .ADD__HEADER__BUTTONS__CONTAINER {
+    transform: translate(-25px ,-9px);
   }
 }
 
