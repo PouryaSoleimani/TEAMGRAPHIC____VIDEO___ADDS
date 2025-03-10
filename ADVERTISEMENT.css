@@ -3358,12 +3358,23 @@
     height: 147vw;
     position: relative;
   }
+  
   .ADD__BIG__TEXT__CAMERA1 {
     top: -22%;
   }
 }
 
 @media screen and (min-width:1280px) {
+  .ADD__HEADER__BUTTONS {
+    transform: translate(-81px,12px);
+  }
+  
+  .grid-container {
+    width: 100vw;
+    height: 250rem;
+    position: relative;
+  }
+  
   .ADD__BIG__TEXT__CAMERA1 {
     position: absolute;
     top: -20%;
@@ -3374,17 +3385,13 @@
   }
   
   .ADD__BIG__TEXT__CAMERA2 {
-    position: absolute;
-    bottom: -23%;
     right: -7%;
-    z-index: -10;
-    --animate-duration: 8s;
-    scale: .7;
   }
   
   #ADD_FOOTER_SECTION {
     flex-direction: row;
-    padding: 15rem 0 0 0;
+    padding: 5rem 0 0 0;
+    margin-top: 0rem;
   }
   
   #FOOTER_CENTER {
@@ -3547,6 +3554,11 @@
     width: 100vw;
     margin-top: -51rem;
     margin-bottom: 0;
+  }
+  
+  .gridLayer:nth-child(11) .gridBlock {
+    top: 43rem;
+    left: 21vw;
   }
 }
 
