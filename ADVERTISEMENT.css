@@ -2635,6 +2635,13 @@
     margin-bottom: 1rem;
     margin-top: 1rem;
   }
+
+  .PLANS_HEADER__TEXT {
+    width: 90%;
+    margin-bottom: 6.5rem;
+    font-size: 18px;
+  }
+
 }
 
 @media screen and (min-width :640px) {
