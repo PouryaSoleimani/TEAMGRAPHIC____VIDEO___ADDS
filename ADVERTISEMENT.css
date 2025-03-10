@@ -2814,12 +2814,12 @@
   .HEADER__TITLE {
     font-size: 44px !important;
   }
-
+  
   .PLANS_HEADER__TEXT {
     width: 90%;
     font-size: 21px;
   }
-
+  
   .ADD__HEADER__BUTTONS__CONTAINER {
     transform: translate(-183px ,-8px);
   }
@@ -2859,7 +2859,7 @@
 @media screen and (min-width:820px) {
   .STEPS__TITLE__MOBILE {
     font-size: 40px;
-    margin-top: 94px;
+    margin-top: 36px;
   }
 }
 
@@ -2869,8 +2869,8 @@
   }
   
   .ADD_GALLERY_TEXT {
-    font-size: 26px;
-    width: 80%;
+    font-size: 24px;
+    width: 99%;
     line-height: 2;
   }
   
@@ -3049,6 +3049,10 @@
     --animate-duration: 8s;
   }
   
+  .ADD__HEADER__BUTTONS {
+    transform: translate(-16px,12px);
+  }
+
   .PLANS_HEADER__TEXT {
     width: 80vw;
     margin-bottom: 3.5rem;
@@ -3066,9 +3070,9 @@
     align-items: start;
     justify-content: start;
     position: absolute;
-    padding: 0 2vw;
-    top: 35vw;
-    right: 4vw;
+    padding: 19px 2vw;
+    top: 41vw;
+    right: 1vw;
   }
   
   .ADD__HEADER__CONTENT {
@@ -3100,16 +3104,16 @@
   }
   
   .STEPS__TITLE {
-    font-size: 49px;
+    font-size: 51px;
     position: absolute;
     z-index: 20;
     font-weight: 900;
     text-align: center;
-    top: 34%;
+    top: 32%;
     letter-spacing: -1px;
     white-space: normal;
     color: #000;
-    left: 4%;
+    left: 2%;
   }
   
   .ADD_STEPS_SECTION {
@@ -3161,7 +3165,7 @@
   
   .PLANS .glass {
     width: 300px;
-    height: 800px;
+    height: 830px;
     background: linear-gradient(#fff2,transparent);
     border: 1px solid rgba(255,255,255,.1);
     box-shadow: 0 25px 25px rgba(0,0,0,.25);
@@ -3175,6 +3179,7 @@
     backdrop-filter: blur(10px);
     rotate: 0;
     border-top: 3px solid #d3d3cff5;
+    padding-top: 4rem;
   }
   
   .PLANS:hover .glass {
