@@ -2713,6 +2713,7 @@
   .ADD__HEADER__BUTTONS__CONTAINER {
     display: flex;
     row-gap: 2rem;
+    transform: translate(-182px ,-8px);
   }
   
   .ADD__HEADER__BUTTON__OUTLINE {
@@ -2760,7 +2761,7 @@
   .PLANS_HEADER {
     font-size: 34px;
   }
-
+  
   .PLANS_HEADER__TEXT {
     width: 91vw;
     font-size: 18px;
