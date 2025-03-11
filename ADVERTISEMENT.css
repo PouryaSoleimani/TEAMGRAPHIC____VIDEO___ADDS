@@ -3628,6 +3628,21 @@
   .ADD__TEXTS {
     margin-top: 8.5%;
   }
+  
+  .ADD_STEPS_SECTION {
+    height: 95rem;
+  }
+  .PLANS2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 4.5rem;
+    flex-direction: row;
+    row-gap: 2rem;
+    position: absolute;
+    z-index: 30;
+    top: 75%;
+  }
 }
 
 @media screen and (min-width:1550px) {
