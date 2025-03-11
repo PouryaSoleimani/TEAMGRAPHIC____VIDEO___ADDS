@@ -3749,6 +3749,12 @@
     position: relative;
   }
   
+  .grid-container {
+    width: 100vw;
+    height: 225rem;
+    position: relative;
+  }
+  
   .glass3 h3 {
     font-size: 40px!important;
   }
@@ -3756,10 +3762,6 @@
   .glass3 h5 {
     font-size: 17px;
     width: 90%;
-  }
-  
-  .ADD__TEXTS {
-    margin-top: 6vw;
   }
   
   .ADD__BIG__TEXT__CAMERA1 {
@@ -3786,8 +3788,8 @@
   
   #ADD_FOOTER_SECTION {
     flex-direction: row;
-    padding: 14rem 0 0 0;
-    margin-top: 18rem;
+    padding: 13rem 0 0 0;
+    margin-top: -11rem;
   }
 }
 
