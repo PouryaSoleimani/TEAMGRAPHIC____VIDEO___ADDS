@@ -3823,10 +3823,24 @@
 
 @media screen and (min-width:1650px) {
   #BIG__CAMERA {
-    top: -1%;
+    top: 3%;
     right: 1%;
-    scale: 0.8;
+    scale: .8;
   }
+  
+  .gridLayer {
+    top: -2rem;
+    left: 0;
+    position: absolute;
+    transform-origin: 44.951% 50%;
+  }
+
+  #ADD__TEXT__SECTION {
+    margin-top: -24%;
+    margin-bottom: 5rem;
+    position: relative;
+  }
+  
 }
 
 @media screen and (min-width:1680px) {
