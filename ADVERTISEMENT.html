@@ -485,14 +485,12 @@
                          scrollTrigger: { trigger: sec, start: () => (i ? "top bottom" : "top top"), end: "bottom top", scrub: true, invalidateOnRefresh: false, fastScrollEnd: false, aniticipatePin: true , invalidateOnRefresh : true },
                         })
                 })
-                // CATEGORIES SECTION   =====================================================================================================================================================================================
+                //! CATEGORIES SECTION   =====================================================================================================================================================================================
                 gsap.timeline({  scrollTrigger: { trigger: ".grid-container", start: "top top", end: "+=2000px", scrub: true, pin: ".grid", aniticipatePin : false , invalidateOnRefresh : false, fastScrollEnd: true} })
                 .set(".gridBlock:not(.centerBlock)", { autoAlpha: 0 }).to(".gridBlock:not(.centerBlock)", { duration: 0.1, autoAlpha: 1 }, 0.001).from(".gridLayer", { scale: 3.3333, ease: "none" });
                 // Images to make it look better, not related to the effect
                 const size = Math.max(innerWidth, innerHeight);
-                gsap.set(".gridBlock", {
-                    backgroundImage: (i) => `url(https://pouryasoleimani-adddesign.storage.c2.liara.space/addv-method-bg/${i + 1}.png)`
-                });
+                gsap.set(".gridBlock", { backgroundImage: (i) => `url(https://pouryasoleimani-adddesign.storage.c2.liara.space/addv-method-bg/${i + 1}.png)`});
                 const bigImg = new Image();
                 bigImg.addEventListener("load", function () {   gsap.to(".centerPiece .gridBlock", { autoAlpha: 1, duration: 0.5 })});
                 bigImg.src = `https://pouryasoleimani-adddesign.storage.c2.liara.space/addv-method-bg/2.jpg`;
