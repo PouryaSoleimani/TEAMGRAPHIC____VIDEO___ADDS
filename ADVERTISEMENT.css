@@ -3610,8 +3610,8 @@
   
   #ADD__TEXT__SECTION {
     width: 100vw;
-    height: 30vh;
-    margin-top: 0%;
+    height: 60vh;
+    margin-top: 0;
     margin-bottom: 5rem;
     position: relative;
   }
