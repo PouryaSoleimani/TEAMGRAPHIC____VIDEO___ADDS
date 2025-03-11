@@ -3967,6 +3967,7 @@
   .PLANS2 {
     column-gap: 6rem;
     scale: 1;
+    top: 77%;
   }
   
   .HEADER__CONTENT__CONTAINER {
@@ -3983,7 +3984,7 @@
   #ADD__TEXT__SECTION {
     width: 100vw;
     height: 100vh;
-    margin-top: 2% !important;
+    margin-top: -19% !important;
     margin-bottom: 5rem;
     position: relative;
     margin: 0 auto;
@@ -4035,6 +4036,15 @@
   
   .ADD__PLANS__PRICE__TAG {
     width: 68%;
+  }
+  
+  .gridLayer:nth-child(11) .gridBlock {
+    top: 61rem;
+    left: 21vw;
+  }
+  
+  #ADD_FOOTER_SECTION {
+    padding: 11rem 0 0 0;
   }
 }
 
