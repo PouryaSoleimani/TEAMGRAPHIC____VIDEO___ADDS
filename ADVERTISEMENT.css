@@ -4125,6 +4125,16 @@
     scale: 1;
     --animate-duration: 8s;
   }
+
+  .ADDV_PLANS_CONTAINER > img#CAMERA__IMG {
+    scale: .3;
+    z-index: 1;
+    position: absolute;
+    top: -27vw;
+    left: 44vw;
+    --animate-duration: 8s;
+  }
+  
 }
 
 @media screen and (min-width:2210px) {
