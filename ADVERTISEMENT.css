@@ -4153,6 +4153,18 @@
     height: 243rem;
     position: relative;
   }
+
+  .HEADER__CONTENT__CONTAINER {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    position: absolute;
+    padding: 0 2vw;
+    top: 45vw;
+    right: 6vw;
+  }
+  
 }
 
 @media screen and (min-width:2210px) {
