@@ -3888,7 +3888,12 @@
   }
 }
 
-@media screen and (min-width;:)
+@media screen and (min-width:1750px) {
+  .ADDV_PLANS_CONTAINER > img#CAMERA__IMG {
+    top: -28vw;
+    left: 47vw;
+  }
+}
 
 @media screen and (min-width:1810px) {
   .HEADER__CONTENT__CONTAINER {
@@ -3897,24 +3902,26 @@
     align-items: start;
     justify-content: start;
     position: absolute;
-    padding: 0 2vw;
-    top: 40vw;
+    padding: 1rem;
+    top: 42vw;
     right: 4vw;
+    scale: 1.2;
   }
   
   .ADD__HEADER__BUTTONS {
     display: flex;
-    align-items: end;
+    align-items: start;
     justify-content: start;
     padding-right: 0;
     width: 100%;
     column-gap: 3vw;
     padding-top: 1rem;
     flex-direction: column;
+    transform: translate(-92px,11px);
   }
   
   .ADD__HEADER__CONTENT {
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     color: #fff;
     font-weight: 600;
     display: flex;
@@ -3939,6 +3946,13 @@
   
   .ADD__HEADER__BUTTON__FILL {
     scale: 105%;
+  }
+  
+  .gridLayer {
+    top: 6rem;
+    left: 0;
+    position: absolute;
+    transform-origin: 44.951% 50%;
   }
   
   .glass3 h3 {
