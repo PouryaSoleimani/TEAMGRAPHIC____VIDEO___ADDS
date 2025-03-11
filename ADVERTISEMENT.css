@@ -4110,6 +4110,7 @@
   #ADD_FOOTER_SECTION {
     padding: 9rem 0 0 0;
   }
+  
 }
 
 @media screen and (min-width:1950px) {
@@ -4153,7 +4154,7 @@
     height: 243rem;
     position: relative;
   }
-
+  
   .HEADER__CONTENT__CONTAINER {
     display: flex;
     flex-direction: column;
@@ -4164,7 +4165,6 @@
     top: 45vw;
     right: 6vw;
   }
-  
 }
 
 @media screen and (min-width:2210px) {
