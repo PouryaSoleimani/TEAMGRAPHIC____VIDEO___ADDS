@@ -3736,11 +3736,16 @@
 }
 
 @media screen and (min-width:1580px) {
+  .ADDV_PLANS_CONTAINER > img#CAMERA__IMG {
+    top: -32vw;
+    left: 47vw;
+  }
+  
   #ADD__TEXT__SECTION {
     width: 100vw;
     height: 91vh;
-    margin-top: 55%;
-    margin-bottom: 5rem;
+    margin-top: -38%;
+    margin-bottom: -16rem;
     position: relative;
   }
   
@@ -3766,25 +3771,22 @@
     --animate-duration: 8s;
   }
   
-  .ADD__BIG__TEXT__CAMERA2 {
-    scale: .7;
-  }
-  
-  .ADD__TEXTS {
+    .ADD__TEXTS {
     margin-top: 4vw;
   }
   
   .ADD__BIG__TEXT__CAMERA2 {
     position: absolute;
-    bottom: -27%;
-    right: -2%;
+    bottom: -15%;
+    right: -11%;
     z-index: -10;
     --animate-duration: 8s;
+    scale: .7;
   }
   
   #ADD_FOOTER_SECTION {
     flex-direction: row;
-    padding: 18rem 0 0 0;
+    padding: 5rem 0 0 0;
     margin-top: 18rem;
   }
 }
