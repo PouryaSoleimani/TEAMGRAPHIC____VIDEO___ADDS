@@ -3578,8 +3578,8 @@
   
   .ADD__BIG__TEXT__CAMERA2 {
     position: absolute;
-    bottom: -21%;
-    right: -2%;
+    bottom: -14%;
+    right: -12%;
     z-index: -10;
     --animate-duration: 8s;
   }
@@ -3610,7 +3610,7 @@
   
   #ADD__TEXT__SECTION {
     width: 100vw;
-    height: 60vh;
+    height: 20vh;
     margin-top: 0;
     margin-bottom: 5rem;
     position: relative;
