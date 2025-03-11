@@ -3671,10 +3671,8 @@
 
 @media screen and (min-width:1480px) {
   .gridLayer {
-    top: 27rem;
+    top: 37rem;
     left: 0;
-    width: 100%;
-    height: 100%;
     position: absolute;
     transform-origin: 44.951% 50%;
   }
