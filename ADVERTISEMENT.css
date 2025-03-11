@@ -3690,6 +3690,10 @@
     margin-bottom: -18rem;
     position: relative;
   }
+  
+  .STEPS__TITLE {
+    top: 39%;
+  }
 }
 
 @media screen and (min-width:1550px) {
