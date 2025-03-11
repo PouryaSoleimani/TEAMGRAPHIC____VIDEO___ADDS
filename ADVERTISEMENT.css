@@ -3696,6 +3696,13 @@
   }
 }
 
+@media screen and (min-width:1520px) {
+  .ADDV_PLANS_CONTAINER > img#CAMERA__IMG {
+    top: -34vw;
+    left: 47vw;
+  }
+}
+
 @media screen and (min-width:1550px) {
   .grid-container {
     width: 100vw;
@@ -3703,9 +3710,28 @@
     position: relative;
   }
   
+  .gridLayer {
+    top: 41rem;
+    left: 0;
+    position: absolute;
+    transform-origin: 44.951% 50%;
+  }
+  
   .gridLayer:nth-child(11) .gridBlock {
-    top: 70rem;
+    top: 54rem;
     left: 21vw;
+  }
+  
+  .STEPS__TITLE {
+    top: 42%;
+  }
+  
+  #ADD__TEXT__SECTION {
+    width: 100vw;
+    height: 96rem;
+    margin-top: -40rem;
+    margin-bottom: -1rem;
+    position: relative;
   }
 }
 
