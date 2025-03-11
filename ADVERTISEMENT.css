@@ -3834,11 +3834,18 @@
     position: absolute;
     transform-origin: 44.951% 50%;
   }
-
+  
   #ADD__TEXT__SECTION {
     margin-top: -24%;
     margin-bottom: 5rem;
     position: relative;
+  }
+
+  .gridLayer {
+    top: 13rem;
+    left: 0;
+    position: absolute;
+    transform-origin: 44.951% 50%;
   }
   
 }
