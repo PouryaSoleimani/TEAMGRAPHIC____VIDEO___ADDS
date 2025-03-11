@@ -4066,6 +4066,52 @@
   }
 }
 
+@media screen and (min-width:1910px) {
+  
+  #BIG__CAMERA {
+    top: -14%;
+    right: 4%;
+    scale: 0.75;
+    width: 103%;
+  }
+  
+  .ADD_STEPS_SECTION {
+    height: 104rem;
+  }
+  
+  .STEPS__TITLE {
+    top: 43%;
+    font-size: 66px;
+  }
+  
+  .gridLayer {
+    top: 9rem;
+    left: 0;
+    position: absolute;
+    transform-origin: 44.951% 50%;
+  }
+  
+  .gridLayer:nth-child(11) .gridBlock {
+    top: 64rem;
+    left: 21vw;
+  }
+  
+  #ADD__TEXT__SECTION {
+    width: 100vw;
+    height: 100vh;
+    margin-top: -12% !important;
+    margin-bottom: 5rem;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-top: 0;
+  }
+  
+  #ADD_FOOTER_SECTION {
+    padding: 9rem 0 0 0;
+  }
+}
+
 @media screen and (min-width:1950px) {
   .ADD__TEXTS {
     margin-top: 5vw;
