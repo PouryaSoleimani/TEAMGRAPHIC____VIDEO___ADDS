@@ -3671,10 +3671,16 @@
 
 @media screen and (min-width:1480px) {
   .gridLayer {
-    top: 37rem;
+    top: 7rem;
     left: 0;
     position: absolute;
     transform-origin: 44.951% 50%;
+  }
+  
+  .grid-container {
+    width: 100vw;
+    height: 237vw;
+    position: relative;
   }
   
   #ADD__TEXT__SECTION {
