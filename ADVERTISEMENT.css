@@ -3706,12 +3706,12 @@
 @media screen and (min-width:1550px) {
   .grid-container {
     width: 100vw;
-    height: 500vh;
+    height: 250rem;
     position: relative;
   }
   
   .gridLayer {
-    top: 41rem;
+    top: 14rem;
     left: 0;
     position: absolute;
     transform-origin: 44.951% 50%;
