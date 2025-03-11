@@ -4046,14 +4046,12 @@
   #ADD_FOOTER_SECTION {
     padding: 11rem 0 0 0;
   }
-}
-
-@media screen and (min-width:1810px) {
-  .ADDV_PLANS_CONTAINER>img#CAMERA__IMG {
+  
+  .ADDV_PLANS_CONTAINER > img#CAMERA__IMG {
     scale: .3;
     z-index: 1;
     position: absolute;
-    top: -25vw;
+    top: -30vw;
     left: 44vw;
     --animate-duration: 8s;
   }
