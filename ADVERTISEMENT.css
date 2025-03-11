@@ -3822,17 +3822,11 @@
 }
 
 @media screen and (min-width:1650px) {
+  
   #BIG__CAMERA {
     top: 3%;
     right: 1%;
     scale: .8;
-  }
-  
-  .gridLayer {
-    top: -2rem;
-    left: 0;
-    position: absolute;
-    transform-origin: 44.951% 50%;
   }
   
   #ADD__TEXT__SECTION {
@@ -3840,7 +3834,7 @@
     margin-bottom: 5rem;
     position: relative;
   }
-
+  
   .gridLayer {
     top: 13rem;
     left: 0;
@@ -3848,6 +3842,18 @@
     transform-origin: 44.951% 50%;
   }
   
+  #ADD__TEXT__SECTION {
+    width: 100vw;
+    height: 90vh;
+    margin-top: -10%;
+    margin-bottom: 5rem;
+    position: relative;
+  }
+  
+  .gridLayer:nth-child(11) .gridBlock {
+    top: 57rem;
+    left: 21vw;
+  }
 }
 
 @media screen and (min-width:1680px) {
