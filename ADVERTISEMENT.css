@@ -4176,6 +4176,7 @@
 }
 
 @media screen and (min-width:2080px) {
+  
   #BIG__CAMERA {
     top: -42%;
     right: 4%;
@@ -4209,7 +4210,7 @@
     padding: 8rem 0 0 0;
     margin-top: -18rem;
   }
-  
+
 }
 
 @media screen and (min-width:2210px) {
