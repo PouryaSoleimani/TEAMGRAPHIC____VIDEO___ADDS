@@ -4134,6 +4134,25 @@
     left: 44vw;
     --animate-duration: 8s;
   }
+  
+  #BIG__CAMERA {
+    top: -30%;
+    right: 4%;
+    scale: 0.65;
+    width: 104%;
+  }
+  
+  .PLANS2 {
+    column-gap: 6rem;
+    scale: 1;
+    top: 76%;
+  }
+  
+  .grid-container {
+    width: 100vw;
+    height: 243rem;
+    position: relative;
+  }
 }
 
 @media screen and (min-width:2210px) {
