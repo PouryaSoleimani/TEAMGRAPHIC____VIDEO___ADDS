@@ -3610,8 +3610,8 @@
   
   #ADD__TEXT__SECTION {
     width: 100vw;
-    height: 84vh;
-    margin-top: 70%;
+    height: 65vh;
+    margin-top: 16%;
     margin-bottom: 5rem;
     position: relative;
   }
@@ -3632,7 +3632,7 @@
   .ADD_STEPS_SECTION {
     height: 95rem;
   }
-
+  
   .PLANS2 {
     display: flex;
     justify-content: center;
@@ -3644,11 +3644,16 @@
     z-index: 30;
     top: 75%;
   }
-
+  
   .STEPS__TITLE {
     font-size: 66px;
     top: 37%;
     left: 3%;
+  }
+  
+  .gridLayer:nth-child(11) .gridBlock {
+    top: 51rem;
+    left: 19vw;
   }
 }
 
