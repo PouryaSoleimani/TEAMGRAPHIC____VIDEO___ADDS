@@ -3632,6 +3632,7 @@
   .ADD_STEPS_SECTION {
     height: 95rem;
   }
+
   .PLANS2 {
     display: flex;
     justify-content: center;
@@ -3642,6 +3643,12 @@
     position: absolute;
     z-index: 30;
     top: 75%;
+  }
+
+  .STEPS__TITLE {
+    font-size: 66px;
+    top: 37%;
+    left: 3%;
   }
 }
 
