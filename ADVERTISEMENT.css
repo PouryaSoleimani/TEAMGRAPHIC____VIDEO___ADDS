@@ -4111,6 +4111,16 @@
     padding: 9rem 0 0 0;
   }
   
+  .STEPS__TITLE {
+    top: 46%;
+    font-size: 79px;
+  }
+
+  #ADD__TEXT__SECTION {
+    margin-top: -29% !important;
+  }
+
+
 }
 
 @media screen and (min-width:1950px) {
