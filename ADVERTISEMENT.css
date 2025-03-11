@@ -3744,8 +3744,8 @@
   #ADD__TEXT__SECTION {
     width: 100vw;
     height: 91vh;
-    margin-top: -38%;
-    margin-bottom: -16rem;
+    margin-top: -13%;
+    margin-bottom: 5rem;
     position: relative;
   }
   
@@ -3771,14 +3771,14 @@
     --animate-duration: 8s;
   }
   
-    .ADD__TEXTS {
+  .ADD__TEXTS {
     margin-top: 4vw;
   }
   
   .ADD__BIG__TEXT__CAMERA2 {
     position: absolute;
-    bottom: -15%;
-    right: -11%;
+    bottom: -14%;
+    right: -6%;
     z-index: -10;
     --animate-duration: 8s;
     scale: .7;
@@ -3786,7 +3786,7 @@
   
   #ADD_FOOTER_SECTION {
     flex-direction: row;
-    padding: 5rem 0 0 0;
+    padding: 14rem 0 0 0;
     margin-top: 18rem;
   }
 }
