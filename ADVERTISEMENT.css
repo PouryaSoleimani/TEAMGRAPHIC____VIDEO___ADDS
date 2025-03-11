@@ -3586,7 +3586,7 @@
   
   .grid-container {
     width: 100vw;
-    height: 155vw;
+    height: 188vw;
     position: relative;
   }
   
@@ -3610,8 +3610,8 @@
   
   #ADD__TEXT__SECTION {
     width: 100vw;
-    height: 65vh;
-    margin-top: 16%;
+    height: 30vh;
+    margin-top: 0%;
     margin-bottom: 5rem;
     position: relative;
   }
