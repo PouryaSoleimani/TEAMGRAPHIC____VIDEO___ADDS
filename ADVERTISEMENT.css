@@ -3655,6 +3655,18 @@
     top: 51rem;
     left: 19vw;
   }
+  
+  .glass3 .ADD__BIG__TEXT__CONTAINER {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 0;
+    width: 90vw;
+    height: auto;
+    font-weight: 800;
+    margin-top: 2rem;
+  }
 }
 
 @media screen and (min-width:1550px) {
