@@ -3546,6 +3546,12 @@
   }
 }
 
+@media screen and (min-width:1320px) {
+  .STEPS__TITLE {
+    top: 22%;
+  }
+}
+
 @media screen and (min-width:1440px) {
   
   #ADD_CATEG_SECTION {
