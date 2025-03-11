@@ -3669,6 +3669,25 @@
   }
 }
 
+@media screen and (min-width:1480px) {
+  .gridLayer {
+    top: 27rem;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-origin: 44.951% 50%;
+  }
+  
+  #ADD__TEXT__SECTION {
+    width: 100vw;
+    height: 126rem;
+    margin-top: -40rem;
+    margin-bottom: -18rem;
+    position: relative;
+  }
+}
+
 @media screen and (min-width:1550px) {
   .grid-container {
     width: 100vw;
