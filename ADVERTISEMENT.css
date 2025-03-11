@@ -3882,6 +3882,14 @@
   }
 }
 
+@media screen and (min-width:1720px) {
+  .STEPS__TITLE {
+    top: 48%;
+  }
+}
+
+@media screen and (min-width;:)
+
 @media screen and (min-width:1810px) {
   .HEADER__CONTENT__CONTAINER {
     display: flex;
