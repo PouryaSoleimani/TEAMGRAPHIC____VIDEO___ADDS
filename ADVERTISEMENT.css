@@ -3821,6 +3821,14 @@
   }
 }
 
+@media screen and (min-width:1650px) {
+  #BIG__CAMERA {
+    top: -1%;
+    right: 1%;
+    scale: 0.8;
+  }
+}
+
 @media screen and (min-width:1680px) {
   #ADD__TEXT__SECTION {
     width: 100vw;
