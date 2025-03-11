@@ -486,7 +486,7 @@
                         })
                 })
                 // CATEGORIES SECTION   =====================================================================================================================================================================================
-                gsap.timeline({  scrollTrigger: { trigger: ".grid-container", start: "top top", end: "+=2000px", scrub: true, pin: ".grid", aniticipatePin : true , invalidateOnRefresh : true, fastScrollEnd: false} })
+                gsap.timeline({  scrollTrigger: { trigger: ".grid-container", start: "top top", end: "+=2000px", scrub: true, pin: ".grid", aniticipatePin : false , invalidateOnRefresh : true, fastScrollEnd: false} })
                 .set(".gridBlock:not(.centerBlock)", { autoAlpha: 0 }).to(".gridBlock:not(.centerBlock)", { duration: 0.1, autoAlpha: 1 }, 0.001).from(".gridLayer", { scale: 3.3333, ease: "none" });
                 // Images to make it look better, not related to the effect
                 const size = Math.max(innerWidth, innerHeight);
