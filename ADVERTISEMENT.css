@@ -4041,6 +4041,37 @@
   }
 }
 
+@media screen and (min-width:1880px) {
+  .gridLayer {
+    top: 0rem;
+    left: 0;
+    position: absolute;
+    transform-origin: 44.951% 50%;
+  }
+  
+  #ADD__TEXT__SECTION {
+    margin-top: 10% !important;
+  }
+  
+  #BIG__CAMERA {
+    top: 12%;
+    right: 2%;
+    scale: .7;
+    width: 114rem;
+    height: 140rem;
+  }
+  
+  #ADD_FOOTER_SECTION {
+    padding: 5rem 0 0 0;
+    margin-top: 13rem;
+  }
+  
+  .gridLayer:nth-child(11) .gridBlock {
+    top: 64rem;
+    left: 21vw;
+  }
+}
+
 @media screen and (min-width:1910px) {
   
   #BIG__CAMERA {
