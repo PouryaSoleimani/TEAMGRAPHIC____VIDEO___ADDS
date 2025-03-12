@@ -4305,7 +4305,15 @@
   }
   
   #ADD__TEXT__SECTION {
-    height: 135vh;
+    height: 111rem;
+    margin-top: 5% !important;
+  }
+  
+  .gridLayer {
+    top: 0rem;
+    left: 0;
+    position: absolute;
+    transform-origin: 44.951% 50%;
   }
   
   .ADDV_PLANS_CONTAINER > img#CAMERA__IMG {
