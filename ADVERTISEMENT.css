@@ -944,50 +944,6 @@
   }
 }
 
-@media screen and (min-width:1820px) {
-  #BIG__CAMERA {
-    position: absolute;
-    z-index: 30;
-    --animate-duration: 8s;
-    top: 15%;
-    right: 25%;
-    width: 52vw;
-    height: 141vh;
-  }
-  
-  .PLANS2 {
-    scale: .95;
-    top: 33%;
-  }
-  
-  .ADD_STEPS_SECTION {
-    height: 171vh;
-  }
-  
-  .STEPS__TITLE {
-    top: 21%;
-  }
-}
-
-@media screen and (min-width:1950px) {
-  #BIG__CAMERA {
-    position: absolute;
-    z-index: 30;
-    --animate-duration: 8s;
-    top: -12%;
-    right: 14%;
-    height: 180vh;
-  }
-  
-  .ADD_STEPS_SECTION {
-    height: 175vh;
-  }
-  
-  .STEPS__TITLE {
-    top: 24%;
-  }
-}
-
 #ADD_CATEG_SECTION {
   flex-direction: column;
   align-items: center;
@@ -1011,14 +967,6 @@
   font-size: 11.5vw;
   text-align: center;
   white-space: normal;
-}
-
-@media screen and (min-width:1950px) {
-  .CATEG__HEADER__TITLE {
-    font-size: 4vw;
-    font-weight: 800;
-    margin-top: -7%;
-  }
 }
 
 .gridBlock {
@@ -4070,6 +4018,31 @@
   }
 }
 
+@media screen and (min-width:1820px) {
+  #BIG__CAMERA {
+    position: absolute;
+    z-index: 30;
+    --animate-duration: 8s;
+    top: 15%;
+    right: 25%;
+    width: 52vw;
+    height: 141vh;
+  }
+  
+  .PLANS2 {
+    scale: .95;
+    top: 33%;
+  }
+  
+  .ADD_STEPS_SECTION {
+    height: 171vh;
+  }
+  
+  .STEPS__TITLE {
+    top: 21%;
+  }
+}
+
 @media screen and (min-width:1910px) {
   
   #BIG__CAMERA {
@@ -4177,7 +4150,30 @@
     top: 45vw;
     right: 6vw;
   }
+
+  #BIG__CAMERA {
+    position: absolute;
+    z-index: 30;
+    --animate-duration: 8s;
+    top: -12%;
+    right: 14%;
+    height: 180vh;
+  }
+  
+  .ADD_STEPS_SECTION {
+    height: 175vh;
+  }
+  
+  .STEPS__TITLE {
+    top: 24%;
+  }
+  .CATEG__HEADER__TITLE {
+    font-size: 4vw;
+    font-weight: 800;
+    margin-top: -7%;
+  }
 }
+
 
 @media screen and (min-width:2080px) {
   
