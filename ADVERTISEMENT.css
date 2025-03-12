@@ -4286,6 +4286,17 @@
     top: 74rem;
     left: 21vw;
   }
+  
+  .gridLayer {
+    top: 10rem;
+    left: 0;
+    position: absolute;
+    transform-origin: 44.951% 50%;
+  }
+  
+  #ADD__TEXT__SECTION {
+    margin-top: 11% !important;
+  }
 }
 
 @media screen and (min-width:2210px) {
