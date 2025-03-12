@@ -4162,7 +4162,7 @@
   .PLANS2 {
     column-gap: 6rem;
     scale: 1;
-    top: 76%;
+    top: 62%;
   }
   
   .grid-container {
@@ -4186,9 +4186,10 @@
     position: absolute;
     z-index: 30;
     --animate-duration: 8s;
-    top: -12%;
-    right: 14%;
-    height: 180vh;
+    top: -13%;
+    right: 4%;
+    height: 212vh;
+    width: 98rem;
   }
   
   .ADD_STEPS_SECTION {
@@ -4196,13 +4197,25 @@
   }
   
   .STEPS__TITLE {
-    top: 24%;
+    top: 36%;
   }
   
   .CATEG__HEADER__TITLE {
     font-size: 4vw;
     font-weight: 800;
     margin-top: -7%;
+  }
+  
+  #ADD__TEXT__SECTION {
+    margin-top: -25% !important;
+    height: 110rem;
+  }
+  
+  .gridLayer {
+    top: 2rem;
+    left: 0;
+    position: absolute;
+    transform-origin: 44.951% 50%;
   }
 }
 
