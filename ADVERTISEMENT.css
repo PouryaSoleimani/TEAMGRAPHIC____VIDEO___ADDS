@@ -4087,7 +4087,7 @@
   }
   
   .gridLayer {
-    top: 9rem;
+    top: 51rem;
     left: 0;
     position: absolute;
     transform-origin: 44.951% 50%;
@@ -4099,14 +4099,8 @@
   }
   
   #ADD__TEXT__SECTION {
-    width: 100vw;
-    height: 100vh;
-    margin-top: -12% !important;
-    margin-bottom: 5rem;
-    position: relative;
-    margin: 0 auto;
-    margin-top: 0px;
-    margin-top: 0;
+    margin-top: 34% !important;
+    height: 110rem;
   }
   
   #ADD_FOOTER_SECTION {
