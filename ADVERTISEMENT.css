@@ -4044,7 +4044,7 @@
   }
   
   #ADD_FOOTER_SECTION {
-    padding: 11rem 0 0 0;
+    padding: 5rem 0 0 0;
   }
   
   .ADDV_PLANS_CONTAINER > img#CAMERA__IMG {
@@ -4063,6 +4063,10 @@
     --animate-duration: 8s;
     left: 13vw;
     top: 52%;
+  }
+  
+  .STEPS__TITLE {
+    top: 50%;
   }
 }
 
@@ -4210,7 +4214,6 @@
     padding: 8rem 0 0 0;
     margin-top: -18rem;
   }
-
 }
 
 @media screen and (min-width:2210px) {
