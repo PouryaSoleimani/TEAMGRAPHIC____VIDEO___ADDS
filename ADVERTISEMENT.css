@@ -340,32 +340,6 @@
   top: calc(86% + 30vw);
 }
 
-@media screen and (min-width:2210px) {
-  .ADDV_PLANS_CONTAINER>img#CAMERA__IMG {
-    background: 0 0;
-    scale: .4;
-    z-index: 1;
-    position: absolute;
-    top: -25 vw;
-    left: 45vw;
-    --animate-duration: 8s;
-  }
-  
-  .ADDV_PLANS_CONTAINER > img#DRONE__IMG {
-    background: 0 0;
-    scale: .45;
-    z-index: 1;
-    position: absolute;
-    --animate-duration: 8s;
-    left: -5vw;
-    top: -15%;
-  }
-  
-  .ADD_SUBJECTS_CONTAINER > .SUBJECTS__HEADER__TITLE {
-    padding-top: 33rem!important;
-  }
-}
-
 .PLANS {
   display: flex;
   justify-content: center;
@@ -466,7 +440,7 @@
   row-gap: 1rem;
   text-align: center;
   padding: 4vw;
-  background: linear-gradient(#fff2,transparent);
+  background: linear-gradient(#ffffffc4,#fffafaa8);
   border: 1px solid rgba(255,255,255,.1);
   box-shadow: 0 25px 25px rgba(0,0,0,.25);
   display: flex;
@@ -3146,6 +3120,7 @@
   
   .ADD__PLANS__PRICE__TAG {
     width: 85%;
+    text-shadow: 1px 1px 3px white;
   }
   
   .PLANS_HEADER__TEXT {
@@ -3432,7 +3407,7 @@
   .PLANS .glass {
     width: 380px;
     height: 850px;
-    background: linear-gradient(#fff2,transparent);
+    background: linear-gradient(#ffffffc4,#fffafaa8);
     border: 1px solid rgba(255,255,255,.1);
     box-shadow: 0 25px 25px rgba(0,0,0,.25);
     display: flex;
@@ -4087,7 +4062,7 @@
   }
   
   .gridLayer {
-    top: 51rem;
+    top: 14rem;
     left: 0;
     position: absolute;
     transform-origin: 44.951% 50%;
@@ -4099,7 +4074,7 @@
   }
   
   #ADD__TEXT__SECTION {
-    margin-top: 34% !important;
+    margin-top: -1% !important;
     height: 110rem;
   }
   
