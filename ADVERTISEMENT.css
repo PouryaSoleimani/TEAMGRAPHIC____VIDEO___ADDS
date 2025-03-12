@@ -439,7 +439,7 @@
   justify-content: center;
   row-gap: 1rem;
   text-align: center;
-  background: linear-gradient(#ffffffc4,#fffafaa8);
+  background: linear-gradient(#ffffff52,#fffafa52);
   border: 1px solid rgba(255,255,255,.1);
   box-shadow: 0 25px 25px rgba(0,0,0,.25);
   display: flex;
@@ -2278,6 +2278,11 @@
     right: -26%;
     z-index: -10;
     --animate-duration: 8s;
+  }
+  
+  .SUBJECT_CONTENT_CONTAINER {
+    width: 22rem;
+    height: 16rem;
   }
 }
 
