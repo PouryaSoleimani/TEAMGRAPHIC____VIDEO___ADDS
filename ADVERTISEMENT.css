@@ -4020,7 +4020,7 @@
 
 @media screen and (min-width:1820px) {
   #BIG__CAMERA {
-    top: 4%;
+    top: 20%;
     right: -5%;
     scale: .7;
     width: 135rem;
@@ -4028,7 +4028,7 @@
   
   .PLANS2 {
     scale: .95;
-    top: 33%;
+    top: 76%;
   }
   
   .ADD_STEPS_SECTION {
@@ -4056,7 +4056,7 @@
   }
   
   #ADD__TEXT__SECTION {
-    margin-top: 40% !important;
+    margin-top: 32% !important;
   }
   
   .CATEG__HEADER__TITLE {
