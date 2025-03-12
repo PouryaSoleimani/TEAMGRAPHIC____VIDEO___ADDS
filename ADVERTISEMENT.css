@@ -4074,7 +4074,7 @@
   }
   
   #ADD__TEXT__SECTION {
-    margin-top: -1% !important;
+    margin-top: -3% !important;
     height: 110rem;
   }
   
@@ -4086,10 +4086,7 @@
     top: 42%;
     font-size: 79px;
   }
-  
-  #ADD__TEXT__SECTION {
-    margin-top: -29% !important;
-  }
+
 }
 
 @media screen and (min-width:1950px) {
