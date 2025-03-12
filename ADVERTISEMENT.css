@@ -4281,6 +4281,13 @@
   }
 }
 
+@media screen and (min-width:2189px) {
+  .gridLayer:nth-child(11) .gridBlock {
+    top: 74rem;
+    left: 21vw;
+  }
+}
+
 @media screen and (min-width:2210px) {
   .ADD__TEXTS {
     margin-top: 4.5vw;
