@@ -4351,6 +4351,10 @@
     top: 78rem;
     left: 21vw;
   }
+  
+  .ADDV_PLANS_CONTAINER > img#CAMERA__IMG {
+    top: -30rem;
+  }
 }
 
 @media screen and (min-width:2440px) {
