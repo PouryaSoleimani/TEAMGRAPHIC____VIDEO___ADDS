@@ -4246,7 +4246,7 @@
   }
   
   .gridLayer {
-    top: 0rem;
+    top: -5rem;
     left: 0;
     position: absolute;
     transform-origin: 44.951% 50%;
@@ -4259,7 +4259,7 @@
   
   .grid-container {
     width: 100vw;
-    height: 255rem;
+    height: 200rem;
     position: relative;
   }
   
