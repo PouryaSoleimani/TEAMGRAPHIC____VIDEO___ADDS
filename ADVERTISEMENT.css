@@ -4020,13 +4020,10 @@
 
 @media screen and (min-width:1820px) {
   #BIG__CAMERA {
-    position: absolute;
-    z-index: 30;
-    --animate-duration: 8s;
-    top: 15%;
-    right: 25%;
-    width: 52vw;
-    height: 141vh;
+    top: 4%;
+    right: -5%;
+    scale: .7;
+    width: 135rem;
   }
   
   .PLANS2 {
@@ -4035,11 +4032,29 @@
   }
   
   .ADD_STEPS_SECTION {
-    height: 171vh;
+    height: 145rem;
+    margin-top: -48%;
   }
   
   .STEPS__TITLE {
-    top: 21%;
+    top: 51%;
+    font-size: 76px;
+    left: 2%;
+  }
+  
+  .grid-container {
+    width: 100vw;
+    height: 209rem;
+    position: relative;
+  }
+  .gridLayer {
+    top: 47rem;
+    left: 0;
+    position: absolute;
+    transform-origin: 44.951% 50%;
+  }
+  #ADD__TEXT__SECTION {
+    margin-top: 40% !important;
   }
 }
 
@@ -4150,7 +4165,7 @@
     top: 45vw;
     right: 6vw;
   }
-
+  
   #BIG__CAMERA {
     position: absolute;
     z-index: 30;
@@ -4167,13 +4182,13 @@
   .STEPS__TITLE {
     top: 24%;
   }
+  
   .CATEG__HEADER__TITLE {
     font-size: 4vw;
     font-weight: 800;
     margin-top: -7%;
   }
 }
-
 
 @media screen and (min-width:2080px) {
   
