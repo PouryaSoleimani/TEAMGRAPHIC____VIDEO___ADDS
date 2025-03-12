@@ -4332,9 +4332,24 @@
     scale: .4;
     z-index: 1;
     position: absolute;
-    top: -25vw;
-    left: 45vw;
+    top: -33rem;
+    left: 46vw;
     --animate-duration: 8s;
+  }
+}
+
+@media screen and (min-width:2340px) {
+  #BIG__CAMERA {
+    top: -37%;
+    right: -5%;
+    scale: .5;
+    width: 133%;
+    height: 192rem;
+  }
+  
+  .gridLayer:nth-child(11) .gridBlock {
+    top: 78rem;
+    left: 21vw;
   }
 }
 
