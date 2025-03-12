@@ -4270,6 +4270,14 @@
   }
 }
 
+@media screen and (min-width:2120px){
+  .ADDV_PLANS_CONTAINER > img#CAMERA__IMG {
+    top: -25vw;
+    left: 47vw;
+    --animate-duration: 8s;
+  }
+}
+
 @media screen and (min-width:2210px) {
   .ADD__TEXTS {
     margin-top: 4.5vw;
