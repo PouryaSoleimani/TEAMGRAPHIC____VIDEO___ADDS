@@ -4028,20 +4028,25 @@
   }
   
   .gridLayer {
-    top: 47rem;
+    top: 2rem;
     left: 0;
     position: absolute;
     transform-origin: 44.951% 50%;
   }
   
   #ADD__TEXT__SECTION {
-    margin-top: 32% !important;
+    margin-top: 9% !important;
   }
   
   .CATEG__HEADER__TITLE {
     font-size: 4vw;
     font-weight: 800;
     margin-top: -6%;
+  }
+  
+  #ADD_FOOTER_SECTION {
+    padding: 5rem 0 0 0;
+    margin-top: 14rem;
   }
 }
 
@@ -4115,6 +4120,7 @@
   
   #ADD_FOOTER_SECTION {
     padding: 9rem 0 0 0;
+    margin-top: -16rem;
   }
   
   .STEPS__TITLE {
