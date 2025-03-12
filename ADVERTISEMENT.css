@@ -4378,12 +4378,49 @@
 }
 
 @media screen and (min-width:2440px) {
+  
+  .ADD_STEPS_SECTION {
+    height: 130rem;
+  }
+  
   #ADD__TEXT__SECTION {
     width: 100vw;
     height: 100vh;
     margin-top: 43%;
     margin-bottom: 5rem;
     position: relative;
+    margin-top: 7% !important;
+  }
+  
+  #BIG__CAMERA {
+    top: -27%;
+    right: -5%;
+    scale: .5;
+    width: 133%;
+    height: 192rem;
+  }
+  
+  .gridLayer {
+    top: 2rem;
+    left: 0;
+    position: absolute;
+    transform-origin: 44.951% 50%;
+  }
+  
+  .gridLayer:nth-child(11) .gridBlock {
+    top: 82rem;
+    left: 21vw;
+  }
+  
+  .PLANS2 {
+    column-gap: 6rem;
+    scale: 1;
+    top: 65%;
+  }
+  
+  #ADD_CATEG_SECTION {
+    display: flex;
+    margin-top: -1%;
   }
   
   .ADD__TEXTS {
