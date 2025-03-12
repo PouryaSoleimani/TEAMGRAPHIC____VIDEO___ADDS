@@ -4069,14 +4069,16 @@
 @media screen and (min-width:1910px) {
   
   #BIG__CAMERA {
-    top: -14%;
+    top: -11%;
     right: 4%;
-    scale: 0.75;
+    scale: .75;
     width: 103%;
+    height: 139rem;
   }
   
   .ADD_STEPS_SECTION {
-    height: 104rem;
+    height: 105rem;
+    margin-top: -20%;
   }
   
   .STEPS__TITLE {
@@ -4112,7 +4114,7 @@
   }
   
   .STEPS__TITLE {
-    top: 46%;
+    top: 42%;
     font-size: 79px;
   }
   
