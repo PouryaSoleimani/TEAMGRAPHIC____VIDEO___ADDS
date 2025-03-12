@@ -4357,6 +4357,18 @@
   }
 }
 
+@media screen and (min-width:2420px) {
+  .ADDV_PLANS_CONTAINER > img#CAMERA__IMG {
+    background: 0 0;
+    scale: .4;
+    z-index: 1;
+    position: absolute;
+    top: -30rem;
+    left: 46vw;
+    --animate-duration: 8s;
+  }
+}
+
 @media screen and (min-width:2440px) {
   #ADD__TEXT__SECTION {
     width: 100vw;
