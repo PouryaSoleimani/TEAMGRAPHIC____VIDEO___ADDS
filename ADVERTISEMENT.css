@@ -4219,6 +4219,13 @@
   }
 }
 
+@media screen and (min-width:1980px) {
+  .gridLayer:nth-child(11) .gridBlock {
+    top: 67rem;
+    left: 21vw;
+  }
+}
+
 @media screen and (min-width:2080px) {
   
   #BIG__CAMERA {
