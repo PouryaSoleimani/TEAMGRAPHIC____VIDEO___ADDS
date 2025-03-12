@@ -4047,14 +4047,22 @@
     height: 209rem;
     position: relative;
   }
+  
   .gridLayer {
     top: 47rem;
     left: 0;
     position: absolute;
     transform-origin: 44.951% 50%;
   }
+  
   #ADD__TEXT__SECTION {
     margin-top: 40% !important;
+  }
+  
+  .CATEG__HEADER__TITLE {
+    font-size: 4vw;
+    font-weight: 800;
+    margin-top: -6%;
   }
 }
 
