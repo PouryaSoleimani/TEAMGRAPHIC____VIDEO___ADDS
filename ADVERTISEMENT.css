@@ -4229,14 +4229,21 @@
 @media screen and (min-width:2080px) {
   
   #BIG__CAMERA {
-    top: -42%;
-    right: 4%;
+    top: -37%;
+    right: -8%;
     scale: .5;
-    width: 158%;
+    width: 133%;
+    height: 192rem;
+  }
+  
+  .PLANS2 {
+    column-gap: 6rem;
+    scale: 1;
+    top: 71%;
   }
   
   .gridLayer {
-    top: 45rem;
+    top: 0rem;
     left: 0;
     position: absolute;
     transform-origin: 44.951% 50%;
@@ -4254,12 +4261,12 @@
   }
   
   #ADD__TEXT__SECTION {
-    margin-top: -6% !important;
+    margin-top: -44% !important;
   }
   
   #ADD_FOOTER_SECTION {
     padding: 8rem 0 0 0;
-    margin-top: -18rem;
+    margin-top: -17rem;
   }
 }
 
