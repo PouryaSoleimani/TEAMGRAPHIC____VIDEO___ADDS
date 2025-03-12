@@ -4310,10 +4310,16 @@
   }
   
   .gridLayer {
-    top: 0rem;
+    top: 20rem;
     left: 0;
     position: absolute;
     transform-origin: 44.951% 50%;
+  }
+  
+  .grid-container {
+    width: 100vw;
+    height: 216rem;
+    position: relative;
   }
   
   .ADDV_PLANS_CONTAINER > img#CAMERA__IMG {
