@@ -4227,6 +4227,9 @@
 }
 
 @media screen and (min-width:2080px) {
+  .ADD_STEPS_SECTION {
+    height: 112rem;
+  }
   
   #BIG__CAMERA {
     top: -37%;
@@ -4270,7 +4273,7 @@
   }
 }
 
-@media screen and (min-width:2120px){
+@media screen and (min-width:2120px) {
   .ADDV_PLANS_CONTAINER > img#CAMERA__IMG {
     top: -25vw;
     left: 47vw;
