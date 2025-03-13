@@ -19,7 +19,7 @@
    </div>
 </div>
 <!-- ! DESKTOP ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-<div>
+<div class="ADD____MAIN____CONTAINER">
    <main class="ADD_MAIN_SECTION">
       <!-- ^ HEADER SECTION -->
       <div class="ADD_FIRST_SECTION">
@@ -425,22 +425,18 @@
                 }
                 window.onload = function logger() { console.log(window.innerWidth) }
       </script>
-      <script defer>
-         const $LOADER = document.querySelector(".LOADER___CONTAINER")
-         const $MAIN___CONTAINER = document.querySelector(".ADD_MAIN_SECTION")
-         const $PAGE___TITLE = document.querySelector(".site-h1 .section-main-header")
-                document.onreadystatechange = function () {
-                    let STATE = document.readyState
-                    if (STATE === "loading") {
-                        $MAIN___CONTAINER.style.display = "none"
-                    } else if (STATE === "interactive") {
-                        $MAIN___CONTAINER.style.display = "none"
-                    } else {
-                        $LOADER.style.display = "none"
-                        $MAIN___CONTAINER.style.display = "block !important"
-                    }
-                };
-      </script>
+      <script>
+            window.onload = function () {
+            const $LOADER = document.querySelector(".LOADER___CONTAINER");
+            const $MAIN___CONTAINER = document.querySelector(".ADD____MAIN____CONTAINER");
+
+             if ($LOADER && $MAIN___CONTAINER) {
+                  $LOADER.style.display = "none";
+                  $MAIN___CONTAINER.style.display = "block";
+                  console.log("ON LOAD")
+                }
+             }; 
+       </script>
       <script>
                 const addMainSection = document.querySelector(".ADD_MAIN_SECTION")
                 addMainSection.addEventListener("keydown", function (e) { if (keyboardCheck.checked && e.ctrlKey && (e.keyCode == "61" || e.keyCode == "107" || e.keyCode == "173" || e.keyCode == "109" || e.keyCode == "187" || e.keyCode == "189")) { e.preventDefault() } })
