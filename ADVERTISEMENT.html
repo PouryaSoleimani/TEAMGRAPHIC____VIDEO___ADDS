@@ -432,11 +432,11 @@
                 document.onreadystatechange = function () {
                     let STATE = document.readyState
                     if (STATE === "loading") {
-                        $MAIN___CONTAINER.style.display = "none !important"
+                        $MAIN___CONTAINER.style.display = "none"
                     } else if (STATE === "interactive") {
-                        $MAIN___CONTAINER.style.display = "none !important"
+                        $MAIN___CONTAINER.style.display = "none"
                     } else {
-                        $LOADER.style.display = "none !important"
+                        $LOADER.style.display = "none"
                         $MAIN___CONTAINER.style.display = "block !important"
                     }
                 };
