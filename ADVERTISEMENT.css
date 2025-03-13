@@ -5,6 +5,15 @@
   margin: 0;
 }
 
+.LOADER___CONTAINER {
+  z-index: 999;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .ADD_FIRST_SECTION {
   width: 100vw;
   height: auto;
