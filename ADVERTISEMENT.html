@@ -457,6 +457,7 @@
                 // SUBJECTS PARRALAX    ========================================================================================================================================================================================
                let getRatio = (el) => {return window.innerHeight / (window.innerHeight + el.offsetHeight);}
                 gsap.utils.toArray("section.SUBJECT_SECTION").forEach((sec, i) => {
+                    sec.style.willChange = "transform";
                     sec.bg = sec.querySelector(".SUBJECT_BG")
                     sec.bg.style.backgroundImage = `url(https://pouryasoleimani-adddesign.storage.c2.liara.space/addv-subjects-bg/${i + 1}.jpg)`
                     sec.bg.style.backgroundRepeat = "no-repeat"
@@ -464,7 +465,7 @@
                         sec.bg.style.willChange = "background-position";
                         sec.bg.style.backgroundSize = "cover"
                      }else {
-                        sec.bg.style.willChange = "background-position";
+                        sec.bg.style.willChange = "transform: translateY()";
                         sec.bg.style.backgroundSize = "auto";
                         }
                     gsap.fromTo( sec.bg,{ backgroundPosition: () => i ? `60% ${-window.innerHeight * getRatio(sec)}px` : "50% 0px" },
